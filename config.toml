@@ -1,0 +1,87 @@
+# The URL the site will be built for
+base_url = "https://pmchp.pages.dev"
+title = "PostMineClan"
+description = "hogehoge"
+
+# lang
+default_language = "ja"
+
+# theme
+theme = "prism"
+
+# deploy
+output_dir = "public"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+minify_html = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# taxonomies = [
+#     { name = "tags", feed = true },           # Enable tags with RSS feed
+#     { name = "authors", feed = true },        # Enable authors with RSS feed
+#     { name = "categories", feed = true }      # Enable categories with RSS feed
+# ]
+
+
+# [markdown]
+# render_emoji = true                           # Convert :smile: to 😊
+# external_links_target_blank = true            # Open external links in new tab
+# external_links_no_follow = true               # Add rel="nofollow" to external links
+# external_links_no_referrer = true             # Add rel="noreferrer" for privacy
+# smart_punctuation = true
+
+# [markdown.highlighting]
+# theme = "catppuccin-mocha"
+
+# [extra]
+# # Put all your custom variables here
+# home = "back"
+# background_image = "https://example.com/bg.jpg"
+
+# # Table of Contents
+# show_toc = true                               # Show table of contents on posts
+
+# # Main Navigation
+# sam_menu = [
+#     {text = "posts", link = "/posts"},
+#     {text = "what's pmc", link = "/about"},
+#     { text = "authors", link = "/authors" },
+#     { text = "tags", link = "/tags" },
+#     { text = "categories", link = "/categories" }
+# ]
+
+# show_word_count = true                        # Display word count on posts
+# show_reading_time = true                      # Display estimated reading time
+
+# # Comments
+# # TODO: コメントはいずれ解放したい
+# comments = false                               # Enable/disable Giscus comments globally
+
+# # SEO & Meta
+# keywords = "blog, minecraft, game"            # Meta keywords (optional)
+
+# # TODO: 変更する
+# banner = "static/banner.png"                  # OG:image for social media (optional)
+
+
+# [extra.sam_footer]
+# # TODO: 変更する
+# text = "Built using Zola & Prism theme"       # Footer text (supports HTML)
+
+
+# [extra.author]
+# name = "donabe"                               # Author name
+# # email = "hoge@mail.com"                     # Author email (optional)
+# # url = "https://www.internet.com"            # Author website (optional)
+
+# [extra.features]
+# copy_code_button = true                       # Show copy button on code blocks
+# reading_progress_bar = true                   # Show reading progress bar at top
+# smooth_scroll = true                          # Enable smooth scrolling for anchor links
+
+
+# # [extra.analytics]
+# # google_analytics_id = "G-XXXXXXXXXX"          # Google Analytics
