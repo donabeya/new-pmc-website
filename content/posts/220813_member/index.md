@@ -1,15 +1,17 @@
 ---
-title: "ダイヤ30個を花火に溶かした女"
-author: ["donabe","nakam"]
-date: "2026-08-09"
-description: "MineClaft"
-summary: "なにしてんねん"
-# tags: ["PMC"]
-# category: ["minecraft"]
+draft: true
+title: "メンバー募集のお知らせ"
+author: ["donabe"]
+date: "2022-08-13"
+description: "一緒にあそびましょ"
+summary: ""
+tags: ["PMC"]
+category: ["Minecraft","メンバー募集"]
 cover:
-    image: nakam_scr.png
-    alt: "diamond to hanabi"
-    caption: "captionつけれる"
+    image: SabakuHonmachi.png
+    alt: "メンバー大募集よ！"
+    # caption: ""
+ShowToc: true
 ---
 
 
@@ -21,7 +23,6 @@ PostMineClanは、ワールド刷新にあたりサーバーのメンバーを�
 
 マインクラフトのマルチプレイにご興味ありましたら、是非ご応募ください！
 
-![メンバー大募集よ！](SabakuHonmachi.png)
 
 ## 募集期間
 8月20日まで(Twitter連絡必着)

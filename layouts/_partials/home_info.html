@@ -1,15 +1,43 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    
-    <div class="entry-content md-content">
-        {{ $opts := dict "display" "block" }}
-        {{ .Content | $.Page.RenderString $opts }}
+    <div style="text-align:center;margin:1rem">
+        {{- if .ImageUrl }}
+        {{- $img := "" }}
+        {{- if not (urls.Parse .ImageUrl).IsAbs }}
+        {{- $img = resources.Get .ImageUrl }}
+        {{- end }}
+        {{- $w := site.Params.profileMode.imageWidth | default 120 }}
+        {{- $h := site.Params.profileMode.imageHeight | default 120 }}
+        {{- if $img }}
+        {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+        {{- if hugo.IsExtended -}}
+        {{- $processableFormats = $processableFormats | append "webp" -}}
+        {{- end -}}
+        {{- if in $processableFormats $img.MediaType.SubType }}
+        {{- $img = $img.Resize (printf "%dx%d" $w $h) }}
+        {{- end }}
+        <div class="home-info-image" style="text-align:center;margin:1rem 0;">
+            <img src="{{ $img.Permalink }}" alt="{{ .Title | plainify }}" width="{{ $w }}" height="{{ $h }}"
+                style="display:inline-block;border-radius:50%;object-fit:cover;" />
+        </div>
+        {{- else }}
+        <div class="home-info-image" style="text-align:center;margin:1rem 0;">
+            <img src="{{ .ImageUrl | absURL }}" alt="{{ .Title | plainify }}" width="{{ $w }}" height="{{ $h }}"
+                style="display:inline-block;border-radius:50%;object-fit:cover;" />
+        </div>
+        {{- end }}
+        {{- end }}
+        <header class="entry-header">
+            <h1>{{ .Title | markdownify }}</h1>
+        </header>
+
+        <div class="entry-content md-content">
+            {{ $opts := dict "display" "block" }}
+            {{ .Content | $.Page.RenderString $opts }}
+        </div>
+        <footer class="entry-footer">
+            {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+        </footer>
     </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
 </article>
 {{- end -}}

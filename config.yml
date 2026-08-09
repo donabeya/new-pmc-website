@@ -1,7 +1,11 @@
-baseURL: "https://example.org/"
+baseURL: "https://pmchp.pages.dev/"
 title: PostMineClan
 copyright: "" # TODO: 設定する
 theme: [hugo-PaperMod]
+
+defaultContentLanguage: ja
+defaultContentLanguageInSubdir: false
+disableDefaultLanguageRedirect: false
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -29,11 +33,15 @@ menu:
     - name: Posts
       url: posts/
       weight: 1
+    - name: Archive
+      url: archives/
+      weight: 2
     - name: Search
       url: search/
-      weight: 2
+      weight: 3
     - name: Tags
       url: tags/
+      weight: 4
 
 outputFormats:
   llms:
@@ -47,36 +55,36 @@ outputs:
     - HTML
     - RSS
     - JSON
-    - llms
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: ""
+  author: ["nakam","donabe"]
   # author: ["Me", "You"] # multiple authors
+
 
   defaultTheme: light
   # disableThemeToggle: true
-  # ShowShareButtons: true
+  ShowShareButtons: true
   ShowReadingTime: true
-  # disableSpecial1stPost: true
+  disableSpecial1stPost: true
   # displayFullLangName: true
-  # ShowPostNavLinks: true
-  # ShowBreadCrumbs: true
-  # ShowCodeCopyButtons: true
-  # ShowRssButtonInSectionTermList: true
-  # ShowAllPagesInArchive: true
-  # ShowPageNums: true
-  # ShowToc: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
 
   homeInfoParams:
     Title: "PostMineClan"
     Content: |
       PostMineClanは主にMinecraftサーバーでワイワイしている招待制のグループです
-    imageUrl: "/logo/PMC_logo.jpg"
+    ImageUrl: "/logo/PMC_logo.jpg"
 
   profileMode:
-    enabled: true
+    enabled: false
     title: "PostMineClan" # optional default will be site title
     subtitle: "好きなものが作れる世界"
     imageUrl: "/logo/PMC_logo.jpg" # optional
@@ -91,12 +99,12 @@ params:
     - name: X
       title: Follow me on X/Twitter
       url: "https://x.com/MRT1019PMC"
-    - name: github
+    - name: GitHub
       title: View Source on Github
-      url: ""
+      url: "https://github.com/donabeya/new-pmc-website"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    URL: "https://github.com/donabeya/new-pmc-website.git"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -112,25 +120,27 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "logo/PMC_logo.jpg"
+    favicon16x16: "logo/PMC_logo.jpg"
+    favicon32x32: "logo/PMC_logo.jpg"
+    apple_touch_icon: "logo/PMC_logo.jpg"
+    safari_pinned_tab: "logo/PMC_logo.jpg"
 
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
+  cover:
+      hidden: false # hide everywhere but not in structured data
+      hiddenInList: false # hide on list pages and home
+      hiddenInSingle: false # hide on single page
+      responsiveImages: true
+      linkFullImages: true
 
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     keys: ["title", "permalink", "summary", "content"]
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 
 markup:
   goldmark:
