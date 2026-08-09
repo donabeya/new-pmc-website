@@ -1,6 +1,6 @@
 baseURL: "https://pmchp.pages.dev/"
 title: PostMineClan
-copyright: "" # TODO: 設定する
+copyright: "donabe8898"
 theme: [hugo-PaperMod]
 
 defaultContentLanguage: ja
