@@ -7,8 +7,10 @@ summary: ""
 categories: ["PostMineClan"]
 tags: [ "Meme"]
 cover:
-    image: "nakam_src.png"
+    image: "nakam_scr.png"
     alt: "花火に貢ぐ人"
-    caption: "😂"
+    caption: "🎆🎆🎆🎆🎆🎆🎆🎆"
 ShowToc: false
 ---
+
+# 😂
