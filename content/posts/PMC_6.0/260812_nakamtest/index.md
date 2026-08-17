@@ -11,6 +11,7 @@ cover:
     alt: ""
     caption: ""
 ShowToc: false
+draft: true
 ---
 
 # ブラジルの人聞こえますかーーーーー
