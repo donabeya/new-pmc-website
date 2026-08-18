@@ -7,7 +7,7 @@ summary: ""
 tags: ["PMC"]
 # category: [""]
 cover:
-    image: logo/PMC_logo.jpg
+    image: logo/PMC_Logo.png
     alt: "PMCロゴ"
     caption: ""
 ShowToc: false
@@ -17,4 +17,3 @@ ShowToc: false
 
 
 今後ともPostMineClanをよろしくお願いします！！
-

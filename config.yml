@@ -33,15 +33,18 @@ menu:
     - name: Posts
       url: posts/
       weight: 1
+    - name: Old
+      url: old/
+      weight: 2
     - name: Archive
       url: archives/
-      weight: 2
+      weight: 3
     - name: Search
       url: search/
-      weight: 3
+      weight: 4
     - name: Tags
       url: tags/
-      weight: 4
+      weight: 5
 
 outputFormats:
   llms:
@@ -81,13 +84,13 @@ params:
     Title: "PostMineClan"
     Content: |
       PostMineClanは主にMinecraftサーバーでワイワイしている招待制のグループです
-    ImageUrl: "/logo/PMC_logo.jpg"
+    ImageUrl: "/logo/PMC_Logo.png"
 
   profileMode:
     enabled: false
     title: "PostMineClan" # optional default will be site title
     subtitle: "好きなものが作れる世界"
-    imageUrl: "/logo/PMC_logo.jpg" # optional
+    imageUrl: "/logo/PMC_Logo.png" # optional
     imageTitle: "PMC Logo" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
@@ -98,7 +101,7 @@ params:
   socialIcons:
     - name: X
       title: Follow me on X/Twitter
-      url: "https://x.com/MRT1019PMC"
+      url: "https://x.com/PostMineClan"
     - name: GitHub
       title: View Source on Github
       url: "https://github.com/donabeya/new-pmc-website"
@@ -120,11 +123,11 @@ params:
 
   assets:
     disableHLJS: true
-    favicon: "logo/PMC_logo.jpg"
-    favicon16x16: "logo/PMC_logo.jpg"
-    favicon32x32: "logo/PMC_logo.jpg"
-    apple_touch_icon: "logo/PMC_logo.jpg"
-    safari_pinned_tab: "logo/PMC_logo.jpg"
+    favicon: "logo/PMC_Logo.png"
+    favicon16x16: "logo/PMC_Logo.png"
+    favicon32x32: "logo/PMC_Logo.png"
+    apple_touch_icon: "logo/PMC_Logo.png"
+    safari_pinned_tab: "logo/PMC_Logo.png"
 
   cover:
       hidden: false # hide everywhere but not in structured data
