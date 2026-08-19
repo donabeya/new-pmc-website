@@ -5,7 +5,7 @@ date: 2026-08-09
 description: ""
 summary: ""
 categories: ["PostMineClan"]
-tags: [ "Meme"]
+tags: [ "Minecraft"]
 cover:
     image: "nakam_scr.png"
     alt: "花火に貢ぐ人"

@@ -3,10 +3,8 @@ title: "PMC 6.0 (main)"
 weight: 1
 ---
 
-2020年に開始したMinecraft Bedrock Edition サーバーでPMCの原点
-
-数々のイベント ~~や事件~~ が行われた歴史的あるサーバーの最新バージョン
-
-元々はRealmsだったがワールドの発展に伴って負荷が増大したため、現在はshirokuma氏のサーバー上でホストされている
+PostMineClanのMinecraftサーバーの本家、サバイバルマルチプレイの記録。
+これまでのべ50人以上が遊んでいる。2026年現在で6ワールド目。
+もともとはRealmsだったが負荷増大により、いつからか[Shirokuma](https://shirokuma1101.github.io/shirokuma1101/)のサーバーに移行した。
 
 
