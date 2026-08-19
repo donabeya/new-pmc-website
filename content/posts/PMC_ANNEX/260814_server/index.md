@@ -11,4 +11,12 @@ ShowToc: false
 draft: true
 ---
 
-# ちくわ大明神
+# PMC ANNEXとは？
+
+PMC ANNEXはdonabe8898が運営するもうひとつのPMCである
+
+# PMC 6.0との違い
+
+||PMC6.0|PMC ANNEX|
+|:--:|:--:|:--:|
+||||
