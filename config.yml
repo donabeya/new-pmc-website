@@ -83,7 +83,7 @@ params:
   homeInfoParams:
     Title: "PostMineClan"
     Content: |
-      PostMineClanは主にMinecraftサーバーでワイワイしている招待制のグループです
+      好きなものが創れる世界
     ImageUrl: "/logo/PMC_Logo.png"
 
   profileMode:
