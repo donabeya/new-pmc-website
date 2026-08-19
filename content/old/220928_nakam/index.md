@@ -5,7 +5,7 @@ date: 2022-09-28
 description: ""
 summary: ""
 categories: ["PostMineClan"]
-tags: [ "Master","UK","Study abroad"]
+tags: ["雑記"]
 cover:
     image: "A.jpg"
     alt: "なんかの建物"
@@ -13,7 +13,7 @@ cover:
 ShowToc: true
 ---
 
-こんにちは。なかむるです！留学のためロンドンに到着しました〜
+こんにちは。なかむです！留学のためロンドンに到着しました〜
 
 これからしばらくなかむるは多忙のため運営の実務を離れ新しい運営の人達に頑張ってもらおうと思います！今までありがとうございました。
 

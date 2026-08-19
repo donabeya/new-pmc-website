@@ -6,7 +6,7 @@ date: 2023-03-12
 description: ""
 summary: ""
 categories: ["PostMineClan"]
-tags: [ "Minecraft","Member"]
+tags: [ "Minecraft","お知らせ"]
 # cover:
 #     image: "A.jpg"
 #     alt: "なんかの建物"
@@ -15,6 +15,8 @@ ShowToc: false
 ---
 
 # メンバーを募集します！
+## ※この募集は終了しました。
+
 PostMineClanは、ワールド刷新にあたりサーバーのメンバーを新規募集致します。
 
 本コミュニティは40名を超えるメンバーが在籍しておりながら、高いレベルで民主的な意思決定のプロセスを共有しており、マインクラフトのプレイをはじめ、各種ゲーム・趣味の共有による交友関係構築のお手伝いをさせていただきます。
@@ -26,6 +28,7 @@ PostMineClanは、ワールド刷新にあたりサーバーのメンバーを�
 ## 参加要件
 - Minecraft Java Editionを所持している
 - Discordでの連絡が可能である
+※この募集は終了しました。
 
 # 参加手続き
 1. TwitterDMを通した軽いやり取り

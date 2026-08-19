@@ -4,7 +4,7 @@ author: ["donabe"]
 date: 2022-02-26
 description: "一緒にあそびましょ"
 summary: ""
-tags: ["Minecraft", "Building contest"]
+tags: ["Minecraft", "event"]
 category: ["Minecraft"]
 cover:
     # image: SabakuHonmachi.png
