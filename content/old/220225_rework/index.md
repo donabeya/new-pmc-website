@@ -4,7 +4,7 @@ author: ["donabe"]
 date: 2022-02-25
 description: "一緒にあそびましょ"
 summary: ""
-tags: ["PMC"]
+tags: ["お知らせ"]
 # category: [""]
 cover:
     image: logo/PMC_Logo.png

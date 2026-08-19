@@ -4,7 +4,7 @@ author: ["nakam"]
 date: 2022-08-21
 description: ""
 summary: ""
-tags: ["Minecraft"]
+tags: ["Minecraft", "お知らせ"]
 category: ["PostMineClan"]
 ShowToc: false
 ---

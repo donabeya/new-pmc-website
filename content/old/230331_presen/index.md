@@ -5,7 +5,7 @@ date: 2023-03-31
 description: ""
 summary: ""
 categories: ["PostMineClan"]
-tags: [ "Activity","Event"]
+tags: ["event"]
 # cover:
 #     image: "A.jpg"
 #     alt: "なんかの建物"

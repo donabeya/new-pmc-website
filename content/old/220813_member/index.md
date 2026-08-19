@@ -6,7 +6,7 @@ date: "2022-08-13"
 description: "一緒にあそびましょ"
 summary: ""
 tags: ["PMC"]
-category: ["Minecraft","メンバー募集"]
+category: ["Minecraft","お知らせ"]
 cover:
     image: SabakuHonmachi.png
     alt: "メンバー大募集よ！"
