@@ -1,6 +1,5 @@
 ---
 title: PostMineClanとは
-draft: true
 ---
 
 # PostMineClanについて
