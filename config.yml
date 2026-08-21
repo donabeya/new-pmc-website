@@ -83,6 +83,9 @@ params:
   ShowPageNums: true
   ShowToc: true
 
+  relativeURLs: true
+  canonifyURLs: false
+
   homeInfoParams:
     Title: "PostMineClan"
     Content: |
